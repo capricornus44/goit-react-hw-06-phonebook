@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { CSSTransition } from 'react-transition-group';
 import { ToastContainer } from 'react-toastify';
-import { storageContact } from '../../redux/actions/contact-action';
+import { storageContact } from '../../redux/phonebook/actions/contact-action';
 import Form from '../form/Form';
 import Filter from '../filter/Filter';
 import ContactList from '../contactList/ContactList';

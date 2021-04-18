@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
-import { deleteContact } from '../../redux/actions/contact-action';
+import { deleteContact } from '../../redux/phonebook/actions/contact-action';
 import './SingleContact.scss';
 
 const SingleContact = ({ name, number, deleteContact }) => {

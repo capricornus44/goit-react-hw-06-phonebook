@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { toast } from 'react-toastify';
 import PropTypes from 'prop-types';
-import { addContact } from '../../redux/actions/contact-action';
+import { addContact } from '../../redux/phonebook/actions/contact-action';
 import 'react-toastify/dist/ReactToastify.css';
 import './Form.scss';
 
